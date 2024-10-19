@@ -2,6 +2,8 @@
 
 Deskripsi singkat tentang proyek ini. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
+##
+Nama : M. Bhayaziid Amalin
 ## Fitur
 
 - Fitur 1: Deskripsi fitur 1. Lorem ipsum dolor sit amet.
