@@ -15,4 +15,4 @@ Langkah-langkah untuk menginstal dan menjalankan proyek ini.
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/mdaninas/Capstone-Project.git
-.
+. TES 1 2 3
