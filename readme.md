@@ -1,17 +1,11 @@
-# Nama Proyek
+# Glusity
 
-Deskripsi singkat tentang proyek ini. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our capstone project will develop a web app for monitoring blood sugar levels and managing diabetes, leveraging Google Cloud Platform. The backend will use Node.js for core functionality, including authentication and authorization, while the frontend will be built using a JavaScript framework. Predictive modeling of blood sugar trends will be implemented with TensorFlow.js. Development will occur in Visual Studio Code, with Postman for API testing and GitHub for version control. Comprehensive documentation will outline API endpoints and include backup options for reliable demonstrations.
 
-## Fitur
+# Week 1 Progress
 
-- Fitur 1: Deskripsi fitur 1. Lorem ipsum dolor sit amet.
-- Fitur 2: Deskripsi fitur 2. Ut enim ad minim veniam.
-- Fitur 3: Deskripsi fitur 3. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-## Instalasi
-
-Langkah-langkah untuk menginstal dan menjalankan proyek ini.
-
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/mdaninas/Capstone-Project.git
+- Use international data from Kaggle in csv format,  
+- Gathering data with Pandas Library,
+- Cleaning data and explore the data,
+- Plotting the data,
+- Completing and submit Project Plan.
