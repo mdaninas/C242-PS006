@@ -1,17 +1,43 @@
-# Nama Proyek
 
-Deskripsi singkat tentang proyek ini. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+![](glusity.png)
+# Glusity: Smart Solutions for Diabetes & Obesity
+This project is aimed at developing an application that predicts blood sugar levels by using obesity data inputted by users. It enables the creation of healthier life-style choices, especially Indonesians, through tracking calorie intake and sugar consumption, as well as providing future health insights.
 
-## Fitur
+## Team ID: C242-PS006 
+**Team Member :**
+| Name                            | Bangkit-ID    | Path               | University                                           |
+| -------------                   | ------------- | -------------      | -------------                                        |
+| Fadhlur Rohman                  | M443B4KY1326  | Machine Learning   | Universitas Islam Riau                               |
+| M. Bhayaziid Amalin             | M443B4KY2334  | Machine Learning   | Universitas Islam Riau                               |
+| Muhammad Dani Nasution          | M443B4KY2775  | Machine Learning   | Universitas Islam Riau                               |
+| Fatimah Azzahra                 | A308B4KX1442  | Mobile Development | Universitas Riau                                     |
+| Salwa Destrin Karina            | A308B4KX4049  | Mobile Development | Universitas Riau                                     |
+| Rayhan Al Farassy               | C308B4KY3710  | Cloud Computing    | Universitas Riau                                     |
+| Reza Ramadhani Putra            | C308B4KY3789  | Cloud Computing    | Universitas Riau                                     |
 
-- Fitur 1: Deskripsi fitur 1. Lorem ipsum dolor sit amet.
-- Fitur 2: Deskripsi fitur 2. Ut enim ad minim veniam.
-- Fitur 3: Deskripsi fitur 3. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-## Instalasi
+## Features
+- **Feature 1**: Prediction application with authentication login and data storage to facilitate user access and tracking of prediction history.
+- **Feature 2**: Blood sugar check integrated with obesity calculation to provide a comprehensive overview of the user's health.
+- **Feature 3**: Latest health-related news to enhance user knowledge and keep them informed about healthy lifestyles and medical developments.
+- **Feature 4**: User settings and detailed display of blood sugar check statistics to help monitor changes and health trends.
 
-Langkah-langkah untuk menginstal dan menjalankan proyek ini.
+## Project Scope
 
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/mdaninas/Capstone-Project.git
+**Mobile App Development:**
+- Glucose Monitoring & Prediction: User input-based diabetes and obesity prediction.
+- User Account Management: Secure login system, user profile management, and data storage.
+- Health Insights & News: Daily updates on health-related topics and articles.
+
+**Cloud Computing Infrastructure:**
+- Scalable and Reliable Environment: Robust cloud architecture for high availability.
+- Server-side Components: API development for account management and data handling.
+- Data Storage & Management: Integration with cloud database and object storage services.
+
+**Machine Learning Integration:**
+- Predictive Model: Machine learning model for diabetes and obesity estimation using user inputs.
+- Transfer Learning Approach: Utilizing pre-trained models to enhance prediction accuracy.
+- ML Frameworks: Implementation using TensorFlow, Pandas, and related libraries.
+
+**Tools/IDE/Library:**
+![](tools.png)
