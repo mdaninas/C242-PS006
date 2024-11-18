@@ -19,6 +19,8 @@ This capstone project integrates two machine learning models to predict obesity 
 ## Dataset
 
 ### Link to dataset
+Diabetes prediction dataset : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+Obesity levels dataset : https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels
 
 ## Preprocessing Data
 
