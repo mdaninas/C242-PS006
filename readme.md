@@ -1,4 +1,4 @@
-![](glusity.png)
+![](images/glusity.png)
 # Glusity: Smart Solutions for Diabetes & Obesity 
 This project is aimed at developing an application that predicts blood sugar levels by using obesity data inputted by users. It enables the creation of healthier life-style choices, especially Indonesians, through tracking calorie intake and sugar consumption, as well as providing future health insights.
 
@@ -39,4 +39,4 @@ This project is aimed at developing an application that predicts blood sugar lev
 
 **🛠️ Tools/IDE/Library:** 
 
-![](tools.png)
+![](images/tools.png)
