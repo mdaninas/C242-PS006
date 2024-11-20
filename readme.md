@@ -20,7 +20,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
 
 ## **Cloud Architecture:**
 
-![Architecture](https://media.discordapp.net/attachments/1301100003170848769/1304741330475548756/Arsitektur.png?ex=67307e8e&is=672f2d0e&hm=113af5fb5056db4863bbfc4fb01447af26cbe9263a172445503a313fbe1015ad&=&format=webp&quality=lossless&width=687&height=250)
+![Architecture](images/architecture.png)
 
 ## **Endpoints :**
 
