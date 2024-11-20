@@ -47,7 +47,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
 - Setup storage service for machine learning model,
 - Setup database service for prediction data,
 - Completing and submit Project Plan.
-- 
+  
 ## Week 2 Progress
 
 - Building API with requirement from Mobile
