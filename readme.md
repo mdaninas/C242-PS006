@@ -24,18 +24,6 @@ Obesity levels dataset : https://www.kaggle.com/datasets/fatemehmehrparvar/obesi
 Glusity merupakan sebuah aplikasi yang dikembangkan dengan tujuan untuk memberikan kesaadaran kepada masyarakat terkait kondisi fisik mereka terutama pada
 obesitas serta diabetes.
 
-## Project Scope
-**Mobile App Development :**
-- Spice Scan, Spice Dictionary
-- User Account Management, User Favorite Recipe
-
-**Cloud Computing Infrastructure**
-- Scalable and reliable environment
-- Server-side components for account management, data storage
-
-**Machine Learning Integration**
-- Spice classification using Convolutional Neural Networks (CNN) With Transfer Learning
-
 **Tools/IDE/Library:**
 - **Goggle Collab**: Cloud-based environment for running Python code, particularly useful for collaborative machine learning projects and experiments
 - **Tensorflow**: An open-source machine learning framework used for building and training deep learning models, particularly for tasks such as image recognition, natural language processing, and more
