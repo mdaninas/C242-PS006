@@ -4,7 +4,8 @@ const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const authRoutes = require('./src/routes/authRoutes');
 const healthNewsRoutes = require('./src/routes/healthNewsRoutes');
-const statsRoutes = require('./src/routes/statsRoutes');
+const bloodSugarRoutes = require('./src/routes/bloodSugarRoutes');
+const obesityRoutes = require('./src/routes/obesityRoutes');
 const userRoutes = require('./src/routes/userRoutes');
 const sequelize = require('./src/config/db');
 const ApiError = require('./src/exceptions/ApiError');
@@ -19,15 +20,14 @@ app.use(cookieParser());
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 app.use('/news', healthNewsRoutes);
-app.use('/stats', statsRoutes);
+app.use('/bloodsugar', bloodSugarRoutes);
+app.use('/obesity', obesityRoutes);
 
 app.use((req, res, next) => {
   next(new ApiError('Not Found', 404)); 
 });
 
-
 app.use(errorHandler); 
-
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {

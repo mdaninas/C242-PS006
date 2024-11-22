@@ -1,22 +1,33 @@
 const tf = require('@tensorflow/tfjs-node');
-const { Storage } = require('@google-cloud/storage');
-const storage = new Storage();
 
-async function loadModel() {
-  const bucketName = process.env.GCP_BUCKET_NAME;
-  const modelPath = process.env.MODEL_PATH;
+let model1 = null; // Model for obesity
+let model2 = null; // Model for diabetes
 
-  if (!bucketName || !modelPath) {
-    throw new Error('Bucket name or model path is not defined in environment variables.');
+async function loadModel(modelType) {
+  const modelPath1 = process.env.MODEL_PATH_OBESITY; 
+  const modelPath2 = process.env.MODEL_PATH_DIABETES; 
+
+  if (modelType === 'obesity') {
+    if (!modelPath1) {
+      throw new Error('Model path for obesity is not defined in environment variables.');
+    }
+    if (!model1) {
+      model1 = await tf.loadLayersModel(modelPath1);
+    } 
+    return model1;
   }
 
-  const [files] = await storage.bucket(bucketName).getFiles({ prefix: modelPath });
-  if (files.length === 0) {
-    throw new Error('Model not found in Cloud Storage.');
+  if (modelType === 'diabetes') {
+    if (!modelPath2) {
+      throw new Error('Model path for diabetes is not defined in environment variables.');
+    }
+    if (!model2) {
+      model2 = await tf.loadLayersModel(modelPath2);
+    }
+    return model2;
   }
 
-  const model = await tf.loadLayersModel(`gs://${bucketName}/${modelPath}/model.json`);
-  return model;
+  throw new Error('Invalid model type specified. Use "obesity" or "diabetes".');
 }
 
 module.exports = { loadModel };
