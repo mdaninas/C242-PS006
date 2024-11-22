@@ -28,4 +28,4 @@ This capstone project will create a diabetes management mobile app using MVVM ar
 ## Week 2 Progress
 - Create XML Layout Files at Android Studio,
 - Prepare Asset Files,
-- Styling and Theming using Material Components
+- Styling and Theming using Material Components.
