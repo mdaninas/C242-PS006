@@ -25,3 +25,7 @@ This capstone project will create a diabetes management mobile app using MVVM ar
 - Developing Style Guide for Typography, Color Palettes and UI Component,
 - Completing and submit project plan.
 
+## Week 2 Progress
+- Create XML Layout Files at Android Studio,
+- Prepare Asset Files,
+- Styling and Theming using Material Components
