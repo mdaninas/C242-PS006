@@ -24,26 +24,13 @@ This capstone project will develop a diabetes management web app on Google Cloud
 
 ## **Endpoints:**
 
-#### 1. `/login` (POST)
-**Description**: Log in a user with credentials.
-  
-#### 2. `/register` (POST)
-**Description**: Register a new user account.
-
-#### 3. `/logout` (POST)
-**Description**: Log out the current user.
-
-#### 4. `/update` (PUT)
-**Description**: Update user information.
-
-#### 5. `/profile` (GET)
-**Description**: Retrieve the authenticated user's profile.
-
-#### 6. `/predict_diabetes` (POST)
-**Description**: Predict the likelihood of diabetes based on the provided input data.
-
-#### 7. `/predict_obesity` (POST)
-**Description**: Predict the likelihood of obesity based on the provided input data.
+ 1. `/login` (POST) = Log in a user with credentials.
+ 2. `/register` (POST) = Register a new user account.
+ 3. `/logout` (POST) = Log out the current user.
+ 4. `/update` (PUT) = Update user information.
+ 5. `/profile` (GET) = Retrieve the authenticated user's profile.
+ 6. `/predict_diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
+ 7. `/predict_obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
 
 ## **Service in GCP:**
 
@@ -52,6 +39,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
 - **Compute Engine (SQL)**: To run database services storing prediction data and user data.
 
 ## **Testing the API**
+
 Use Postman or any API testing tool to test the endpoints. Make sure to include the `Authorization` token in the headers for secure endpoints like `/update`, `/profile`, `/logout`, `/predict_diabetes`, and `/predict_obesity`.
 
 **Postman Documentation:** https://documenter.getpostman.com/view/39192802/2sAYBUED2L
