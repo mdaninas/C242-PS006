@@ -21,8 +21,7 @@ Diabetes prediction dataset : https://www.kaggle.com/datasets/iammustafatz/diabe
 Obesity levels dataset : https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels
 
 ## Project Overview
-Glusity merupakan sebuah aplikasi yang dikembangkan dengan tujuan untuk memberikan kesaadaran kepada masyarakat terkait kondisi fisik mereka terutama pada
-obesitas serta diabetes.
+Glusity is an application developed with the aim of providing awareness to the public regarding their physical condition, especially obesity and diabetes.
 
 **Tools/IDE/Library:**
 - **Goggle Collab**: Cloud-based environment for running Python code, particularly useful for collaborative machine learning projects and experiments
