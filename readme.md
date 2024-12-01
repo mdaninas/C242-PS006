@@ -40,6 +40,33 @@ This capstone project will develop a diabetes management web app on Google Cloud
 - **Cloud Storage**: For storing machine learning models and other files.
 - **Compute Engine (SQL)**: To run database services storing prediction data and user data.
 
+## **Installation Instructions**
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/mdaninas/C242-PS006
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Set up environment variables:
+    Create a `.env` file with the following `.env.example` configuration:
+    ```bash
+    PORT="YOUR PORT"
+    DATABASE_URL="YOUR DATABASE_URL"
+    JWT_SECRET="YOUR JWT_SECRET"
+    GCLOUD_PROJECT="YOUR GCLOUD_PROJECT"
+    ALLOWED_ORIGIN="YOUR ALLOWED_ORIGIN"
+    ```
+
+4. Run the application:
+    ```bash
+    npm start
+    ```
+
 ## **Testing the API**
 
 Use Postman or any API testing tool to test the endpoints. Make sure to include the `Authorization` token in the headers for secure endpoints like `/update`, `/profile`, `/logout`, `/predict_diabetes`, and `/predict_obesity`.
