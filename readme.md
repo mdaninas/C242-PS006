@@ -21,7 +21,9 @@ Diabetes prediction dataset : https://www.kaggle.com/datasets/iammustafatz/diabe
 Obesity levels dataset : https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels
 
 ## Project Overview
+
 Glusity is an application developed to raise awareness about physical health, particularly obesity and diabetes, while also providing healthy lifestyle recommendations.
+
 
 ## Prerequisites
 - **Python 3.8** or later
