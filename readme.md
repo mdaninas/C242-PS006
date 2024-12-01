@@ -23,8 +23,15 @@ Obesity levels dataset : https://www.kaggle.com/datasets/fatemehmehrparvar/obesi
 ## Project Overview
 
 Glusity is an application developed to raise awareness about physical health, particularly obesity and diabetes, while also providing healthy lifestyle recommendations.
-
-
+<h2 align="center">Obesity Accuracy</h2>
+<p align="center">
+    <img src="Accuracy%20And%20Loss/Obesity/ACCURACY.png" alt="Accuracy Obesity" width="500">
+</p>    
+<h2 align="center">Diabetes Accuracy</h2>
+<p align="center">
+    <img src="Accuracy%20And%20Loss/Diabetes/ACCURACY.png" alt="Accuracy Diabetes" width="500">
+</p>
+ 
 ## Prerequisites
 - **Python 3.8** or later
 - Required libraries (see **`requirements.txt`**)
