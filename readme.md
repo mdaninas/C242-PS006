@@ -26,12 +26,12 @@ Glusity is an application developed to raise awareness about physical health, pa
 
 ## Accuracy And Loss
 ### Diabetes:
-- <span style="color:green">Accuracy:</span> 90%
-- <span style="color:red">Loss:</span> 0.08%
+  <span style="color:green">Accuracy:</span> 90%
+  <span style="color:red">Loss:</span> 0.08%
 
 ### Obesity:
-- <span style="color:green">Accuracy:</span> 92%
-- <span style="color:red">Loss:</span> 0.19%
+  <span style="color:green">Accuracy:</span> 92%
+  <span style="color:red">Loss:</span> 0.19%
   
 You can check from the graphic Below
 <h2 align="center">Obesity</h2>
