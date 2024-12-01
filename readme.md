@@ -45,7 +45,7 @@ You can check from the graphic Below
 <h2 align="center">Diabetes</h2>
 <p align="center">
     <img src="Accuracy%20And%20Loss/Diabetes/ACCURACY.png" alt="Accuracy Diabetes" width="400">
-    <img src="Accuracy%20And%20Loss/Obesity/LOSS.png" alt="Loss Diabetes" width="400">
+    <img src="Accuracy%20And%20Loss/Diabetes/LOSS.png" alt="Loss Diabetes" width="400">
 </p>
 </div>
 
