@@ -24,8 +24,8 @@ This capstone project will develop a diabetes management web app on Google Cloud
 
 ## **Endpoints:**
 
- 1. `/login` (POST) = Log in a user with credentials.
- 2. `/register` (POST) = Register a new user account.
+ 1. `/register` (POST) = Register a new user account.
+ 2. `/login` (POST) = Log in a user with credentials.
  3. `/logout` (POST) = Log out the current user.
  4. `/profile` (GET) = Retrieve the authenticated user's profile.
  5. `/update` (PUT) = Update user information.
@@ -37,7 +37,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
 ## **Service in GCP:**
 
 - **Cloud Run**: For deploying backend services.
-- **Cloud Storage**: For storing machine learning models and other files.
+- **Cloud Storage**: For storing machine learning models.
 - **Compute Engine (SQL)**: To run database services storing prediction data and user data.
 
 ## **Installation Instructions**
