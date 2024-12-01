@@ -1,6 +1,6 @@
 # Glusity (Cloud Computing)
 
-This capstone project will develop a diabetes management web app on Google Cloud Platform. The backend, built with Node.js, will handle core functionality, including authentication and authorization, while the frontend will use a JavaScript framework. Predictive blood sugar trend modeling will be implemented using a Flask API. Development will be conducted in Visual Studio Code, with Postman for API testing and GitHub for version control. The project will include full API documentation and backup options for reliable demonstrations.
+This capstone project will develop a diabetes management web app on Google Cloud Platform. The backend, built with Express.js, will handle core functionality, including authentication and authorization, while the frontend will use a JavaScript framework. Predictive blood sugar trend modeling will be implemented using a Flask API. Development will be conducted in Visual Studio Code, with Postman for API testing and GitHub for version control. The project will include full API documentation and backup options for reliable demonstrations.
 
 ## **CC Path:**
 
@@ -14,7 +14,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 
