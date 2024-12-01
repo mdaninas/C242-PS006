@@ -32,7 +32,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
  6. `/predict_diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
  7. `/predict_obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
  8. `/predict_history` (GET) = History of the results predicts the possibility of obesity or diabetes.
- 9. `/weighttrend` (GET) = Displays data on weight up and down trends based on input.
+ 9. `/trend` (GET) = Displays data on weight up and down trends weight and glucose level based on input.
 
 ## **Service in GCP:**
 
