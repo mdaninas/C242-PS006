@@ -1,6 +1,6 @@
 # Glusity (Cloud Computing)
 
-This capstone project will develop a diabetes management web app on Google Cloud Platform. The backend, built with Node.js, will handle core functionality, including authentication and authorization, while the frontend will use a JavaScript framework. Predictive blood sugar trend modeling will be implemented using TensorFlow.js. Development will be conducted in Visual Studio Code, with Postman for API testing and GitHub for version control. The project will include full API documentation and backup options for reliable demonstrations.
+This capstone project will develop a diabetes management web app on Google Cloud Platform. The backend, built with Node.js, will handle core functionality, including authentication and authorization, while the frontend will use a JavaScript framework. Predictive blood sugar trend modeling will be implemented using a Flask API. Development will be conducted in Visual Studio Code, with Postman for API testing and GitHub for version control. The project will include full API documentation and backup options for reliable demonstrations.
 
 ## **CC Path:**
 
