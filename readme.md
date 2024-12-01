@@ -1,6 +1,6 @@
 # Glusity - Obesiy and Diabetes Prediction 
 ## Team ID: C242-PS006
-This capstone project integrates two machine learning models to predict obesity and blood sugar levels. An obesity model, trained in TensorFlow using a Kaggle dataset, feeds its output into a diabetes prediction model, improving prediction accuracy and providing insights into both obesity and diabetes risk.
+This capstone project integrates two machine learning models to predict obesity and blood sugar levels. An obesity model, trained in TensorFlow using a Kaggle dataset, feeds its output into a diabetes prediction model, improving prediction accuracy and providing insights into both obesity and diabetes risk. Also using vertex for recommendation for health lifestyle. 
 
 ## **ML Path :**
 | Name                              | Student ID  | Universitas   |
@@ -21,16 +21,23 @@ Diabetes prediction dataset : https://www.kaggle.com/datasets/iammustafatz/diabe
 Obesity levels dataset : https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels
 
 ## Project Overview
-Glusity merupakan sebuah aplikasi yang dikembangkan dengan tujuan untuk memberikan kesaadaran kepada masyarakat terkait kondisi fisik mereka terutama pada
-obesitas serta diabetes.
+Glusity is an application developed to raise awareness about physical health, particularly obesity and diabetes, while also providing healthy lifestyle recommendations.
 
-**Tools/IDE/Library:**
+## Prerequisites
+- **Python 3.8** or later
+- Required libraries (see **`requirements.txt`**)
+
+**Tools/IDE/Library/Dependencies:**
 - **Goggle Collab**: Cloud-based environment for running Python code, particularly useful for collaborative machine learning projects and experiments
-- **Tensorflow**: An open-source machine learning framework used for building and training deep learning models, particularly for tasks such as image recognition, natural language processing, and more
+- **TensorFlow (2.18.0)**: An open-source machine learning framework used for building and training deep learning models, particularly for tasks such as image recognition, natural language processing, and more
 - **TensorflowJS**: A JavaScript library for converting learning models to JSON format
-- **SKLearn**: A popular library for machine learning in Python for data split
-- **Matplotlib**:  A comprehensive plotting library for Python, used to create static, animated, and interactive visualizations
-- **NumPy**: A fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices, and offering a collection of mathematical functions to operate on these arrays 
+- **Scikit-Learn (1.5.2)**: A popular library for machine learning in Python for data split
+- **TensorBoard (2.18.0)**: For visualizing and tracking model training metrics.
+- **Imbalanced-Learn (0.10.1)**: Addresses data imbalance issues, including SMOTEENN implementation.
+- **Matplotlib (3.8.4)**:  A comprehensive plotting library for Python, used to create static, animated, and interactive visualizations
+- **Seaborn (0.13.2)**: Provides aesthetically pleasing data visualizations, such as heatmaps and pairplots.
+- **Keras (2.15.0)**: A high-level API for developing deep learning models.
+- **NumPy (1.26.4)**: A fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices, and offering a collection of mathematical functions to operate on these arrays 
 
 
 
