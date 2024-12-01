@@ -57,6 +57,13 @@ You can check from the graphic Below
     <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURETABLE.png" alt="Accuracy Diabetes" width="600">
 </p>
 </div>
+<div>
+<h2 align="center">Obesity Architecture</h2>
+<p align="center">
+    <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURE.png" alt="Accuracy Diabetes" width="600">
+    <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURETABLE.png" alt="Accuracy Diabetes" width="600">
+</p>
+</div>
 
 ## Prerequisites
 - **Python 3.8** or later
