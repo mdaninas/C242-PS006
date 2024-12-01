@@ -37,15 +37,15 @@ You can check from the graphic Below
 <div>
 <h2 align="center">Obesity</h2>
 <p align="center">
-    <img src="Accuracy%20And%20Loss/Obesity/ACCURACY.png" alt="Accuracy Obesity" width="500">
-    <img src="Accuracy%20And%20Loss/Obesity/LOSS.png" alt="Loss Obesity" width="500">
+    <img src="Accuracy%20And%20Loss/Obesity/ACCURACY.png" alt="Accuracy Obesity" width="400">
+    <img src="Accuracy%20And%20Loss/Obesity/LOSS.png" alt="Loss Obesity" width="400">
 </p>
 </div>
 <div>
 <h2 align="center">Diabetes</h2>
 <p align="center">
-    <img src="Accuracy%20And%20Loss/Diabetes/ACCURACY.png" alt="Accuracy Diabetes" width="500">
-    <img src="Accuracy%20And%20Loss/Obesity/LOSS.png" alt="Loss Diabetes" width="500">
+    <img src="Accuracy%20And%20Loss/Diabetes/ACCURACY.png" alt="Accuracy Diabetes" width="400">
+    <img src="Accuracy%20And%20Loss/Obesity/LOSS.png" alt="Loss Diabetes" width="400">
 </p>
 </div>
 
