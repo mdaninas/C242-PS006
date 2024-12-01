@@ -53,8 +53,8 @@ You can check from the graphic Below
 <div>
 <h2 align="center">Diabetes Architecture</h2>
 <p align="center">
-    <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURE.png" alt="Accuracy Diabetes" width="500">
-    <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURETABLE.png" alt="Accuracy Diabetes" width="500">
+    <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURE.png" alt="Accuracy Diabetes" width="100">
+    <img src="Accuracy%20And%20Loss/Diabetes/Architecture/ARCHITECTURETABLE.png" alt="Accuracy Diabetes" width="100">
 </p>
 </div>
 
