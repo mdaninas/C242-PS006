@@ -31,6 +31,6 @@ obesitas serta diabetes.
 - **SKLearn**: A popular library for machine learning in Python for data split
 - **Matplotlib**:  A comprehensive plotting library for Python, used to create static, animated, and interactive visualizations
 - **NumPy**: A fundamental package for scientific computing in Python, providing support for large, multi-dimensional arrays and matrices, and offering a collection of mathematical functions to operate on these arrays 
-
+.
 
 
