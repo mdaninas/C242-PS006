@@ -38,6 +38,7 @@ This capstone project will develop a diabetes management web app on Google Cloud
 
 - **Cloud Run**: For deploying backend services.
 - **Cloud Storage**: For storing machine learning models.
+- **Cloud Storage**: For storing machine learning models.
 - **Compute Engine (SQL)**: To run database services storing prediction data and user data.
 
 ## **Installation Instructions**
