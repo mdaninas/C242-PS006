@@ -24,15 +24,15 @@ This capstone project will develop a diabetes management web app on Google Cloud
 
 ## **Endpoints:**
 
- 1. `/register` (POST) = Register a new user account.
- 2. `/login` (POST) = Log in a user with credentials.
- 3. `/logout` (POST) = Log out the current user.
- 4. `/profile` (GET) = Retrieve the authenticated user's profile.
- 5. `/update` (PUT) = Update user information.
- 6. `/predict_diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
- 7. `/predict_obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
- 8. `/predict_history` (GET) = History of the results predicts the possibility of obesity or diabetes.
- 9. `/trend` (GET) = Displays weight and glucose level trend data based on input.
+ 1. `/auth/register` (POST) = Register a new user account.
+ 2. `/auth/login` (POST) = Log in a user with credentials.
+ 3. `/auth/logout` (POST) = Log out the current user.
+ 4. `/user/profile` (GET) = Retrieve the authenticated user's profile.
+ 5. `/user/update` (PUT) = Update user information.
+ 6. `/predict/diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
+ 7. `/predict/obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
+ 8. `/predict/history` (GET) = History of the results predicts the possibility of obesity or diabetes.
+ 9. `/user/trend` (GET) = Displays weight and glucose level trend data based on input.
 
 ## **Service in GCP:**
 
