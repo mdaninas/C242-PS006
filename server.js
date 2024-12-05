@@ -12,6 +12,7 @@ const errorHandler = require('./src/exceptions/errorHandler');
 const allowedOrigin = process.env.ALLOWED_ORIGIN || '*'; // Default: semua origin
 
 const app = express();
+app.use(cors());
 app.use(cors({ origin: allowedOrigin }));
 app.use(express.json());
 app.use(cookieParser());  

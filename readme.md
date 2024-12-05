@@ -24,25 +24,54 @@ This capstone project will develop a diabetes management web app on Google Cloud
 
 ## **Endpoints:**
 
- 1. `/login` (POST) = Log in a user with credentials.
- 2. `/register` (POST) = Register a new user account.
- 3. `/logout` (POST) = Log out the current user.
- 4. `/profile` (GET) = Retrieve the authenticated user's profile.
- 5. `/update` (PUT) = Update user information.
- 6. `/predict_diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
- 7. `/predict_obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
- 8. `/predict_history` (GET) = History of the results predicts the possibility of obesity or diabetes.
- 9. `/weighttrend` (GET) = Displays data on weight up and down trends based on input.
+1.  `/auth/register` (POST) = Register a new user account.
+2.  `/auth/login` (POST) = Log in a user with credentials.
+3.  `/auth/logout` (POST) = Log out the current user.
+4.  `/user/profile` (GET) = Retrieve the authenticated user's profile.
+5.  `/user/update` (PUT) = Update user information.
+6.  `/user/trend` (GET) = Displays weight and glucose level trend data based on input.
+7.  `/predict/diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
+8.  `/predict/obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
+9.  `/predict/history` (GET) = History of the results predicts the possibility of obesity or diabetes.
 
 ## **Service in GCP:**
 
 - **Cloud Run**: For deploying backend services.
-- **Cloud Storage**: For storing machine learning models and other files.
+- **Cloud Storage**: For storing machine learning models.
 - **Compute Engine (SQL)**: To run database services storing prediction data and user data.
+
+## **Installation Instructions**
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mdaninas/C242-PS006
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Set up environment variables:
+   Create a `.env` file with the following `.env.example` configuration:
+
+   ```bash
+   PORT="YOUR PORT"
+   DATABASE_URL="YOUR DATABASE_URL"
+   JWT_SECRET="YOUR JWT_SECRET"
+   GCLOUD_PROJECT="YOUR GCLOUD_PROJECT"
+   ALLOWED_ORIGIN="YOUR ALLOWED_ORIGIN"
+   ```
+
+4. Run the application:
+   ```bash
+   npm start
+   ```
 
 ## **Testing the API**
 
 Use Postman or any API testing tool to test the endpoints. Make sure to include the `Authorization` token in the headers for secure endpoints like `/update`, `/profile`, `/logout`, `/predict_diabetes`, and `/predict_obesity`.
 
 **Postman Documentation:** https://documenter.getpostman.com/view/39192802/2sAYBUED2L
-
