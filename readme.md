@@ -30,7 +30,6 @@ This project is aimed at developing an application that predicts blood sugar lev
 
 ### **🤖 Machine Learning Integration:**  
 - Predictive Model: Diabetes and obesity estimation based on user input.  
-- Transfer Learning: Enhanced prediction accuracy using pre-trained models.  
 - ML Frameworks: TensorFlow, Pandas, and related libraries.  
 
 ## 🛠️ Tools/IDE/Library  
