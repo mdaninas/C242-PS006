@@ -3,7 +3,6 @@ const express = require('express');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const authRoutes = require('./src/routes/authRoutes');
-const healthNewsRoutes = require('./src/routes/healthNewsRoutes');
 const userRoutes = require('./src/routes/userRoutes');
 const sequelize = require('./src/config/db');
 const ApiError = require('./src/exceptions/ApiError');
@@ -20,7 +19,6 @@ app.use(cookieParser());
 // Routes
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
-app.use('/news', healthNewsRoutes);
 
 app.use((req, res, next) => {
   next(new ApiError('Not Found', 404)); 
