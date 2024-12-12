@@ -1,7 +1,6 @@
 const bcrypt = require('bcrypt');
 const User = require('../models/User');
 const ApiError = require('../exceptions/ApiError');
-const trendService = require('../services/trendService');
 
 // Update user info
 exports.updateUser = async (req, res, next) => {
@@ -51,23 +50,3 @@ exports.getProfile = async (req, res, next) => {
     next(error); 
   }
 };
-
-// Get User trend
-exports.getTrend = async (req, res) => {
-  try {
-      const userId = req.userId; 
-      const trend = await trendService.fetchTrend(userId);
-
-      return res.status(200).json({
-          success: true,
-          data: trend 
-      });
-  } catch (error) {
-      console.error('Error fetching trend:', error);
-      return res.status(500).json({
-          success: false,
-          error: error.message
-      });
-  }
-};
-

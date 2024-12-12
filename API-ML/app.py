@@ -76,6 +76,7 @@ class VertexAIRecommendationSystem:
         Berikan maksimal 3-4 poin spesifik tentang aktivitas dan kebiasaan yang dapat membantu mengurangi risiko diabetes.
         Gunakan bahasa yang ramah dan memotivasi.
         Batasi jawaban maksimal 200 kata.
+        HANYA BERIKAN SAYA POIN POIN SAJA DAN TANPA KATA TAMBAHAN DI AWAL!
         """
         
         try:
@@ -103,6 +104,7 @@ class VertexAIRecommendationSystem:
         Berikan 3-4 poin spesifik seputar aktivitas dan kebiasaan untuk mencapai berat badan ideal.
         Gunakan pendekatan yang positif dan memotivasi.
         Batasi jawaban maksimal 200 kata.
+        HANYA BERIKAN SAYA POIN POIN SAJA DAN TANPA KATA TAMBAHAN DI AWAL!
         """
         
         try:
@@ -137,6 +139,7 @@ def create_tables():
                         hba1c_level FLOAT, -- Optional jika has_hba1c = 1
                         bmi FLOAT NOT NULL,
                         prediction FLOAT NOT NULL,
+                        risk_level TEXT,
                         recommendation TEXT,
                         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
                     );
@@ -223,7 +226,7 @@ create_tables()
 print("Loading models...")
 diabetes_model, obesity_model = load_and_compile_models()
 
-# Utility functions
+
 def calculate_bmi(weight, height):
     return float(weight / (height ** 2))
 
@@ -301,6 +304,13 @@ def predict_diabetes():
 
         try:
             prediction = float(diabetes_model.predict(input_array, verbose=0)[0][0] * 100)
+            
+            if prediction < 40:
+                risk_level = "Aman"
+            elif prediction >= 40 and prediction < 60:
+                risk_level = "Moderat"
+            else:
+                risk_level = "Bahaya"
         except Exception as e:
             print(f"Prediction error: {str(e)}")
             return jsonify({
@@ -328,14 +338,14 @@ def predict_diabetes():
                     INSERT INTO diabetes_predictions (
                         user_id, gender, age, height, weight, heart_disease,
                         hypertension, smoking_history, blood_glucose,
-                        has_hba1c, hba1c_level, bmi, prediction, recommendation
+                        has_hba1c, hba1c_level, bmi, prediction, risk_level, recommendation
                     )
-                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) RETURNING id;
+                    VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s) RETURNING id;
                     """,
                     (
                         user_id, gender, age, height, weight, heart_disease,
                         hypertension, smoking_history, blood_glucose_level,
-                        has_hba1c, hba1c if has_hba1c else None, bmi, prediction, recommendation
+                        has_hba1c, hba1c if has_hba1c else None, bmi, prediction, risk_level, recommendation
                     )
                 )
                 prediction_id = cursor.fetchone()['id']
@@ -347,6 +357,7 @@ def predict_diabetes():
             'prediction': round(prediction, 2),
             'bmi': round(bmi, 2),
             'hba1c': round(hba1c, 1),
+            'risk_level': risk_level,
             'recommendation': recommendation
         }
         return jsonify(result)
@@ -380,13 +391,13 @@ def predict_obesity():
             # Tentukan kategori berdasarkan indeks
             category = None
             if predicted_category_index == 0:
-                category = 'Insufficient_Weight'
+                category = 'Kekurangan Berat Badan'
             elif predicted_category_index == 1:
-                category = 'Normal_Weight'
+                category = 'Berat Badan Normal'
             elif predicted_category_index == 2:
-                category = 'Overweight'
+                category = 'Kelebihan Berat Badan'
             else:
-                category = 'Obesity'
+                category = 'Obesitas'
         
         except Exception as e:
             print(f"Prediction error: {str(e)}")
@@ -498,7 +509,7 @@ def diabetes_history_by_id(id):
                     SELECT 
                         id, user_id, gender, age, height, weight, heart_disease,
                         hypertension, smoking_history, blood_glucose, has_hba1c,
-                        hba1c_level, bmi, prediction, recommendation, created_at
+                        hba1c_level, bmi, prediction, recommendation, risk_level, created_at
                     FROM diabetes_predictions
                     WHERE id = %s AND user_id = %s;
                 """, (id, user_id))
