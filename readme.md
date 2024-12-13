@@ -1,6 +1,6 @@
 # Glusity (Mobile Development)
 
-This capstone project will create a diabetes management mobile app using MVVM architecture and Kotlin in Android Studio. With a user-friendly design from Figma, the app will store blood sugar data in cloud Database, while Retrofit will manage online updates. Glide will ensure responsive image loading, providing users with a smooth experience for health management.
+This capstone project will create a diabetes management mobile app using MVVM architecture and Kotlin in Android Studio. With a user-friendly design from Figma, the app will store blood sugar data in cloud Database, while Retrofit will manage online updates.
 
 ## **MD Path :**
 | Name                              | Student ID  | Universitas   |
