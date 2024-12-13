@@ -22,7 +22,7 @@ This project is aimed at developing an application that predicts blood sugar lev
 ## 📋 Project Scope  
 ### **📱 Mobile App Development:**  
 - Glucose Monitoring & Prediction: User input-based diabetes and obesity prediction.  
-- User Account Management: Secure login system with user profile management and data storage.  
+- User Account Management: Secure login system with user management and data storage.  
 
 ### **☁️ Cloud Computing Infrastructure:**  
 - Scalable Environment: High availability with robust cloud architecture.  
