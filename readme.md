@@ -27,12 +27,9 @@ This capstone project will develop a diabetes and obesity management mobile app 
 1.  `/auth/register` (POST) = Register a new user account.
 2.  `/auth/login` (POST) = Log in a user with credentials.
 3.  `/auth/logout` (POST) = Log out the current user.
-4.  `/user/profile` (GET) = Retrieve the authenticated user's profile.
-5.  `/user/update` (PUT) = Update user information.
-6.  `/user/trend` (GET) = Displays weight and glucose level trend data based on input.
-7.  `/predict/diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
-8.  `/predict/obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
-9.  `/predict/history` (GET) = History of the results predicts the possibility of obesity or diabetes.
+4.  `/predict/diabetes` (POST) = Predict the likelihood of diabetes based on the provided input data.
+5.  `/predict/obesity` (POST) = Predict the likelihood of obesity based on the provided input data.
+6.  `/predict/history` (GET) = History of the results predicts the possibility of obesity or diabetes.
 
 ## **Service in GCP:**
 
