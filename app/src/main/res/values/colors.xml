@@ -1,0 +1,22 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maroon">#800000</color>
+    <color name="navy">#2D3D4F</color>
+    <color name="red1">#8A244A</color> <!-- Red color -->
+    <color name="putihnew">#F9F9F9</color>
+    <color name="primaryButtonColor">#FF6200EE</color>
+    <color name="secondaryButtonColor">#FF03DAC5</color>
+    <color name="gray">#6E6E6E</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="red">#B32856</color>
+    <color name="pink">#F7ECFC</color>
+    <color name="bluelight">#F4F4FE</color>
+    <color name="yellow">#FEC62F</color>
+    <color name="selectedColor">#FFEB3B</color>
+    <color name="defaultColor">#FFFFFF</color>
+</resources>

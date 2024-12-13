@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/pink">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black">
+
+        <ImageView
+            android:id="@+id/img_background_top_left"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="-50dp"
+            android:alpha="0.15"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iconobesitas" />
+
+        <ImageView
+            android:id="@+id/img_background_bottom_right"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-50dp"
+            android:layout_marginBottom="-50dp"
+            android:alpha="0.15"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iconobesitas" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:text="@string/prediksi_obesitas"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#7E1C3A" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/desc_prediksi"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#333333" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pertanyaan1_obesitas"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#7E1C3A" />
+                <EditText
+                    android:id="@+id/et_vegetable"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edit_text_border"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:hint="@string/masukkan_angka"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/pertanyaan2_obesitas"
+                    android:textSize="14sp"
+                    android:textColor="#7E1C3A" />
+                <EditText
+                    android:id="@+id/et_meals"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edit_text_border"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:hint="@string/masukkan_angka"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/pertanyaan3_obesitas"
+                    android:textSize="14sp"
+                    android:textColor="#7E1C3A" />
+                <EditText
+                    android:id="@+id/et_water"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edit_text_border"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:hint="@string/masukkan_angka"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/pertanyaan4_obesitas"
+                    android:textSize="14sp"
+                    android:textColor="#7E1C3A" />
+                <EditText
+                    android:id="@+id/et_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edit_text_border"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:hint="@string/masukkan_angka"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/gray"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/pertanyaan5_obesitas"
+                    android:textSize="14sp"
+                    android:textColor="#7E1C3A" />
+                <EditText
+                    android:id="@+id/et_gadget"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/edit_text_border"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:hint="@string/masukkan_angka"
+                    android:textColorHint="@color/gray"
+                    android:textColor="@color/gray"/>
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="24dp"
+                android:progress="50"
+                android:progressTint="#7E1C3A"
+                android:indeterminate="false" />
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rounded_button"
+                android:text="@string/kirim"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

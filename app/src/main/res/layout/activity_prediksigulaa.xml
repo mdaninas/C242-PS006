@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bluelight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_background_top_left"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-50dp"
+            android:layout_marginTop="-50dp"
+            android:alpha="0.15"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iconguladarah" />
+
+        <ImageView
+            android:id="@+id/img_background_bottom_right"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-50dp"
+            android:layout_marginBottom="-50dp"
+            android:alpha="0.15"
+            android:contentDescription="@string/background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iconguladarah" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:padding="17dp"
+            android:text="@string/prediksi"
+            android:textColor="#7E1C3A"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/desc_gula"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:lineSpacingExtra="4dp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan1_gula"
+                android:textColor="#7E1C3A"
+                android:textSize="13sp" />
+
+            <Spinner
+                android:id="@+id/et_heart_disease"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_border"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan2_gula"
+                android:textColor="#7E1C3A"
+                android:textSize="13sp"
+                android:textColorHint="@color/gray"/>
+
+            <Spinner
+                android:id="@+id/et_hypertension"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_border"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan3_gula"
+                android:textColor="#7E1C3A"
+                android:textSize="13sp" />
+
+            <Spinner
+                android:id="@+id/et_smoking"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/edit_text_border"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan4_gula"
+                android:textColor="#7E1C3A"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/et_glucose"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/masukkan_angka"
+                android:textColorHint="@color/gray"
+                android:inputType="numberDecimal"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pertanyaan5_gula"
+                android:textColor="#7E1C3A"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/et_hba1c"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp"
+                android:background="@drawable/edit_text_border"
+                android:hint="@string/masukkan_angka"
+                android:textColorHint="@color/gray"
+                android:inputType="numberDecimal"
+                android:textColor="@color/gray"/>
+
+            <CheckBox
+                android:id="@+id/cb_unknown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/klik"
+                android:textColor="#7E1C3A"
+                android:layout_marginBottom="8dp" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginBottom="16dp"
+                android:progress="70"
+                android:indeterminate="false"
+                android:progressTint="#7E1C3A"
+                android:secondaryProgressTint="#FFCCCC"
+                android:backgroundTint="#FFE6E6" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#7E1C3A"
+                android:text="@string/kirim"
+                android:id="@+id/btn_send"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

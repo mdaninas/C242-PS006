@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Glusity</string>
+    <string name="title_home">Home</string>
+    <string name="title_setting">Setting</string>
+    <string name="desc">This application is designed to encourage a healthier lifestyle, particularly for Indonesians, by providing insights into daily calorie intake, sugar consumption, and long-term health projections.</string>
+    <string name="prediksi_gula_darah">Periksa Gula Darah</string>
+    <string name="prediksi_obesitas">Periksa Obesitas</string>
+    <string name="app_logo">glusitynew</string>
+    <string name="description_gula_darah">Deskripsi</string>
+    <string name="description_obesitas">Deskripsi</string>
+    <string name="usia">Usia</string>
+    <string name="berat_badan">Berat Badan</string>
+    <string name="tinggi_badan">Tinggi Badan</string>
+    <string name="lanjut">Lanjut</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="avatar">test</string>
+    <string name="history">test</string>
+    <string name="logo">test</string>
+    <string name="health">test</string>
+    <string name="hand_wave">test</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="calendar_icon">Calendar Icon</string>
+    <string name="back_button">Kembali</string>
+    <string name="add_new_check">test</string>
+    <string name="header_icon">test</string>
+    <string name="profile_picture">Foto Profile</string>
+    <string name="account_icon">Icon Akun</string>
+    <string name="account_arrow">Arah Akun</string>
+    <string name="logout_icon">Icon Logout</string>
+    <string name="logout_arrow">Arah Logout</string>
+    <string name="back">Kembali Account</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_username">Username</string>
+    <string name="edit_picture">Edit Foto</string>
+    <string name="hint_email">Edit Email</string>
+    <string name="hint_password">Edit Password</string>
+    <string name="save_changes">Simpan Perubahan</string>
+    <string name="description">Cek prediksi kesehatan obesitas dan gula darahmu!</string>
+    <string name="descriptions">Cek perkembanganmu dari waktu ke waktu!</string>
+    <string name="login">Login</string>
+    <string name="email">Email*</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="passwords">Password*"</string>
+    <string name="sign">Don’t have an account? Sign up</string>
+    <string name="button">LOGIN</string>
+    <string name="full_name">Enter your full name</string>
+    <string name="sign_up">Already have an account? Login</string>
+    <string name="signs">Sign Up</string>
+    <string name="re_enter">Re-enter your password</string>
+    <string name="confirm">Confirm Password*</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="name">Full Name*</string>
+    <string name="des_diabetes">Prediksi Gula Darah untuk memantau kesehatan Anda</string>
+    <string name="desc_obesity">Prediksi Obesitas untuk menjaga berat badan ideal</string>
+    <string name="Sign_title">Sign Up</string>
+    <string name="pass">Password</string>
+    <string name="logo_Glusity">Logo Glusity</string>
+    <string name="hasilgula">Hasil dan Saran\nPrediksi Gula Darah</string>
+    <string name="hasil_prediksi">Hasil Prediksi</string>
+    <string name="persentase">65.28%</string>
+    <string name="saran">Saran</string>
+    <string name="sugesstion">1. Kurangi Konsumsi Gula - Pertimbangkan untuk mengurangi asupan makanan dan minuman yang tinggi gula, seperti minuman bersoda, permen, dan makanan manis lainnya.\n\n2. Mulai Berolahraga - Cobalah untuk berolahraga secara teratur, minimal 30 menit per hari. Aktivitas fisik dapat membantu menstabilkan kadar gula darah dan menurunkan risiko diabetes.\n\n3. Perhatikan Gejala Fisik - Karena Anda merasa cepat lelah atau sering haus, pertimbangkan untuk melakukan tes gula darah secara berkala. Gejala ini bisa jadi tanda awal dari kadar gula darah yang tidak normal.\n\n4. Pantau Berat Badan - Karena ada kaitan erat antara obesitas dan risiko diabetes, jaga berat badan ideal Anda untuk mengurangi risiko penyakit terkait."</string>
+    <string name="saran_obesitas"> Hasil dan Saran\nPrediksi Obesitas</string>
+    <string name="predict">Obesitas\nBahaya</string>
+    <string name="recom_obesitas">1. Kurangi Konsumsi Makanan Cepat Saji - Cobalah mengurangi frekuensi mengonsumsi makanan cepat saji dengan memilih makanan yang lebih bergizi, seperti sayuran, buah-buahan, dan makanan tinggi serat.\n\n"</string>
+    <string name="history_cek">Histori Pengecekan</string>
+    <string name="cek_perkembangan">Cek perkembanganmu dari waktu ke waktu!</string>
+    <string name="background">Background Image</string>
+    <string name="desc_prediksi">Jawab Beberapa Pertanyaan untuk Prediksi Kesehatan Anda. Jawaban Anda akan membantu kami memberikan saran yang lebih akurat."</string>
+    <string name="pertanyaan1_obesitas">Berapa sering mengkonsumsi sayuran? (makan/hari)</string>
+    <string name="masukkan_angka">Masukkan angka</string>
+    <string name="pertanyaan2_obesitas">Berapa kali makan per hari? (makan/hari)</string>
+    <string name="pertanyaan3_obesitas">Berapa liter air putih yang kamu minum per hari? (liter)</string>
+    <string name="pertanyaan4_obesitas">Berapa lama kamu olahraga per hari? (jam/hari)</string>
+    <string name="pertanyaan5_obesitas">Berapa lama kamu menggunakan gadget? (jam/hari)</string>
+    <string name="kirim">Kirim</string>
+    <string name="prediksi">Prediksi Gula Darah</string>
+    <string name="desc_gula">Jawab Beberapa Pertanyaan untuk Prediksi Kesehatan Anda. Jawaban Anda akan membantu kami memberikan saran yang lebih akurat.</string>
+    <string name="pertanyaan1_gula">Apakah anda memiliki riwayat penyakit jantung? (Ya / Tidak)</string>
+    <string name="pertanyaan2_gula">Apakah anda memiliki hipertensi? (Ya / Tidak)</string>
+    <string name="pertanyaan3_gula">Apakah anda pernah merokok? (Ya / Tidak)</string>
+    <string name="pertanyaan4_gula">Masukkan kadar glukosa anda sesuai medical checkup? (mg/dl)</string>
+    <string name="pertanyaan5_gula">Masukkan level HbA1c anda sesuai medical checkup? (mg/dl)</string>
+    <string name="klik">*klik jika tidak tau</string>
+    <string name="start">Start</string>
+    <string name="succes">Congratulations\nYour Login Success!</string>
+    <string name="next">Next</string>
+    <string name="cek_prediksi_kesehatan">Cek Prediksi Kesehatan</string>
+    <string name="cek_prediksi_kesehatan_obesitas">Cek prediksi kesehatan obesitas dan gula darahmu!</string>
+    <string name="cek_histori_pengecekan">Cek Histori Pengecekan</string>
+    <string name="cek_perkembanganmu">Cek perkembanganmu dari waktu ke waktu!</string>
+    <string name="log_out">Log out</string>
+    <string name="judul_item">Judul Item</string>
+    <string name="deskripsi_item">Deskripsi item</string>
+    <string name="category">Category</string>
+    <string name="recommendation">Recommendation</string>
+
+
+    <string-array name="gender_options">
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="yes_no_options">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+</resources>
