@@ -69,6 +69,6 @@ This capstone project will develop a diabetes and obesity management mobile app 
 
 ## **Testing the API**
 
-Use Postman or any API testing tool to test the endpoints. Make sure to include the `Authorization` token in the headers for secure endpoints like  `/logout`, `/profile`, `/update`, `/trend`, `/predict/diabetes`, and `/predict/obesity`.
+Use Postman or any API testing tool to test the endpoints. Make sure to include the `Authorization` token in the headers for secure endpoints like `/predict/diabetes` and `/predict/obesity`.
 
 **Postman Documentation:** https://documenter.getpostman.com/view/39192802/2sAYBUED2L
