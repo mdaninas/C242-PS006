@@ -36,7 +36,7 @@ This project is aimed at developing an application that predicts blood sugar lev
 ![](images/tools.png)  
 
 ## 📦 Installation  
-- Download the mobile APK from the provided link (to be shared).  
+- Download the mobile APK: [Glusity APK](https://github.com/mdaninas/C242-PS006/releases/download/1.0/glusity-v1.0.apk)  
 
 ## 📂 Dataset Links  
 - [Diabetes Prediction Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)  
