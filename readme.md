@@ -18,7 +18,7 @@ This capstone project will create a diabetes management mobile app using MVVM ar
 ![Mockup](https://github.com/mdaninas/Capstone-Project/blob/main/images/mockup.png)
 
 ## Installation or Getting Started
-To download the app, please visit the following link:
+To download the app, please visit the following link: [Glusity APK](https://github.com/mdaninas/C242-PS006/releases/download/1.0/glusity-v1.0.apk)
 
 ## Reference
 **API Documentation:** https://documenter.getpostman.com/view/39192802/2sAYBUED2L
